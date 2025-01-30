@@ -50,8 +50,8 @@ button:focus,
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #b4ffaa;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear ;
+    animation: spin 2s linear ;
 }
 
 #loader:before {
@@ -64,8 +64,8 @@ button:focus,
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #b4ffaa;
-    -webkit-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite;
+    -webkit-animation: spin 3s linear ;
+    animation: spin 3s linear ;
 }
 
 #loader:after {
@@ -78,8 +78,8 @@ button:focus,
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #b4ffaa;
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 1s linear infinite;
+    -webkit-animation: spin 1s linear ;
+    animation: spin 1s linear ;
 }
 
 @-webkit-keyframes spin {
@@ -494,7 +494,7 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    background: url(../img/mountain-dusk.jpg);
+    background: url(../img/mountain-sunset.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
